@@ -1,0 +1,10 @@
+This version took out the 100 Ohms resistor in the collector and the 1K Ohms resistor in the base,
+resulting in two saved ADCs.
+This version also took out the NMOS transistor in the feedback of the 0 - 5V switch in the Emitter,
+which resulted in the voltage floating and an update (ISIM 3b) being needed to fix that.
+the circuit diagram in the software was updated to match the updates in the circuit.
+
+Most of the op amps were updated - replaced by the versions we actually intend to use in the circuit.
+The next update should fature: 
+	-	a fix to the floating emitter problem
+	-	measurements to indicate how accurate the measured quantities would have been in reality

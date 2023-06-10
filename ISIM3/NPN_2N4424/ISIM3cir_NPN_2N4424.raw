@@ -1,0 +1,60 @@
+Title: ** DC circuit - 3 **
+Date: Wed Mar 29 10:52:20 2023
+Plotname: Operating Point
+Flags: real
+No. Variables: 25
+No. Points:            1
+Offset:   0.0000000000000000e+000
+Command: Linear Technology Corporation LTspice XVII
+Variables:
+	0	V(collector)	voltage
+	1	V(base)	voltage
+	2	V(emitter)	voltage
+	3	V(cres1k)	voltage
+	4	V(vpwrpin)	voltage
+	5	V(vdac1)	voltage
+	6	V(cvin10)	voltage
+	7	V(cvin1k)	voltage
+	8	V(vdac1mult)	voltage
+	9	V(vdac0)	voltage
+	10	V(cres10)	voltage
+	11	V(vdac0mult)	voltage
+	12	V(cres10div)	voltage
+	13	V(cres1kdiv)	voltage
+	14	V(collectordiv)	voltage
+	15	V(bres100div)	voltage
+	16	V(basediv)	voltage
+	17	V(emitterdiv)	voltage
+	18	Ie(Qq2)	device_current
+	19	Ic(Qdut)	device_current
+	20	Ib(Qdut)	device_current
+	21	Ie(Qdut)	device_current
+	22	I(Rrc10)	device_current
+	23	I(Rrb100)	device_current
+	24	I(Rrc1k)	device_current
+Values:
+0		3.848364178052421e+000
+	6.988326932197165e-001
+	2.033726784048971e-003
+	1.000362149795226e+001
+	0.000000000000000e+000
+	3.479853500000000e-001
+	0.000000000000000e+000
+	5.000000000000000e+000
+	7.007105576317374e-001
+	5.000000000000000e+000
+	3.848416441709114e+000
+	1.000449167547571e+001
+	7.697755790461844e-001
+	2.000804261565163e+000
+	7.697651264195285e-001
+	1.402407070108921e-001
+	1.398651378898057e-001
+	5.067402744652643e-004
+	-6.760889809081567e-003
+	6.160432557083428e-003
+	1.872762077431700e-005
+	-6.179171855037123e-003
+	5.226365669352973e-006
+	1.877864412020869e-005
+	6.155257319899836e-003

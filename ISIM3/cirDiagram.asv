@@ -1,0 +1,38 @@
+function createDiagram() 
+    close all;
+    figure('Units','Points', "Position",[100 100 360 300],'Resize','off');
+    global circuitDiagram; circuitDiagram = struct();
+    circuitDiagram.DAC1 = annotation("textbox",'Units','Points','Position',[30 55 50 30], ...
+        "HorizontalAlignment","center","VerticalAlignment","middle", ...
+        );
+    circuitDiagram.L0 = annotation("Line",'Units','Points','Position',[80 70 30 0]);
+    circuitDiagram.L1 = annotation("Line",'Units','Points','Position',[110 70 30 -30]);
+    circuitDiagram.L2 = annotation("Line",'Units','Points','Position',[110 70 30 30]);
+    circuitDiagram.RC0 = annotation("textbox",'Units','Points','Position',[140 90 40 20]);
+    circuitDiagram.RC1 = annotation("textbox",'Units','Points','Position',[140 30 40 20]);
+    circuitDiagram.L3 = annotation("Line",'Units','Points','Position',[180 100 30 -30]);
+    circuitDiagram.L4 = annotation("Line",'Units','Points','Position',[180 40 30 30]);
+    circuitDiagram.L5 = annotation("Line",'Units','Points','Position',[210 70 30 0]);
+    circuitDiagram.DUT = annotation("ellipse",'Units','Points','Position',[240 50 40 40]);
+    circuitDiagram.textDUT = annotation("textbox",'Units','Points','Position',[240 50 40 40], ...
+        "String","DUT","HorizontalAlignment","center","VerticalAlignment","middle",...
+        "EdgeColor",'none');
+    circuitDiagram.L6 = annotation("Line",'Units','Points','Position',[260 50 0 -20]);
+    circuitDiagram.L7 = annotation("Line",'Units','Points','Position',[250 30 20 0]);
+    circuitDiagram.L8 = annotation("Line",'Units','Points','Position',[255 25 10 0]);
+    circuitDiagram.C0 = annotation("ellipse",'Units','Points','Position',[259 20 2 2]);
+    circuitDiagram.L9 = annotation("Line",'Units','Points','Position',[260 90 0 40]);
+    circuitDiagram.L10 = annotation("Line",'Units','Points','Position',[260 130 0 30]);
+    circuitDiagram.L11 = annotation("Line",'Units','Points','Position',[260 130 60 30]);
+    circuitDiagram.L12 = annotation("Line",'Units','Points','Position',[260 130 -60 30]);
+    circuitDiagram.RC0 = annotation("textbox",'Units','Points','Position',[190 160 20 40]);
+    circuitDiagram.RC1 = annotation("textbox",'Units','Points','Position',[250 160 20 40]);
+    circuitDiagram.RC2 = annotation("textbox",'Units','Points','Position',[310 160 20 40]);
+    circuitDiagram.L13 = annotation("Line",'Units','Points','Position',[320 200 -60 30]);
+    circuitDiagram.L14 = annotation("Line",'Units','Points','Position',[260 200 0 30]);
+    circuitDiagram.L15 = annotation("Line",'Units','Points','Position',[200 200 60 30]);
+    circuitDiagram.L16 = annotation("Line",'Units','Points','Position',[260 230 0 30]);
+    circuitDiagram.L17 = annotation("Line",'Units','Points','Position',[260 260 -50 0]);
+    circuitDiagram.DAC0 = annotation("textbox",'Units','Points','Position',[210 275 -50 -30], ...
+        "HorizontalAlignment","center","VerticalAlignment","middle");
+end
